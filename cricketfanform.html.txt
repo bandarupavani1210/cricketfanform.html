@@ -1,0 +1,155 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+  <title>Cricket Fan Form</title>  
+</head>  
+<body>  
+  <center>  
+    <h2 style="color: red;">Cricket Fan Form</h2>  
+
+    <form>  
+      <div style="color: rgb(83, 6, 239);">  
+        <label for="name">Your Name:</label>  
+        <input type="text" id="name" name="name"><br><br>  
+
+        <label for="age">Your Age:</label>  
+        <input type="number" id="age" name="age"><br><br>  
+
+        <label for="country">Your Country:</label>  
+        <input type="text" id="country" name="country"><br><br>  
+
+        <label for="favCricketer">Favorite Cricketer:</label>  
+        <input type="text" id="favCricketer" name="favCricketer"><br><br>  
+
+        <label for="anotherfavCricketer">Another Favorite Cricketer:</label>  
+        <input type="text" id="anotherfavCricketer" name="anotherfavCricketer"><br><br>  
+
+        <label for="Name">Current Captian in ODI:</label>  
+        <input type="text" id="name" name="name"><br><br>  
+
+        <label for="Name">Current Captian in Test:</label>  
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="Name">Current Captian in T20:</label>  
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="Name">Current Captian in ur fav IPL team:</label>  
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="favTeam">Favorite Team:</label>  
+        <select id="favTeam" name="favTeam">  
+          <option value="India">India</option>  
+          <option value="Australia">Australia</option>  
+          <option value="England">England</option>  
+          <option value="Pakistan">Pakistan</option>  
+          <option value="South Africa">South Africa</option>  
+          <option value="New Zealand">New Zealand</option>  
+          <option value="Sri Lanka">Sri Lanka</option>  
+          <option value="West Indies">West Indies</option>  
+        </select><br><br>  
+
+        <label for="favIplTeam">Favorite IPL Team:</label>  
+        <select id="favIplTeam" name="favIplTeam">  
+          <option value="RCB">RCB</option>  
+          <option value="GT">GT</option>  
+          <option value="MI">MI</option>  
+          <option value="PBKS">PBKS</option>  
+          <option value="DC">DC</option>  
+          <option value="CSK">CSK</option>  
+          <option value="SRH">SRH</option>  
+          <option value="KKR">KKR</option>  
+          <option value="RR">RR</option>  
+          <option value="LSG">LSG</option>  
+        </select><br>  
+
+        <table>  
+          <tr>  
+            <td><label>Favorite Format:</label></td>  
+            <td>  
+              <input type="radio" id="test" name="format" value="Test">  
+              <label for="test">Test</label>  
+            </td>  
+          </tr>  
+          <tr>  
+            <td></td>  
+            <td>  
+              <input type="radio" id="odi" name="format" value="ODI">  
+              <label for="odi">ODI</label>  
+            </td>  
+          </tr>  
+          <tr>  
+            <td></td>  
+            <td>  
+              <input type="radio" id="t20" name="format" value="T20">  
+              <label for="t20">T20</label>  
+            </td>  
+          </tr>  
+        </table>  
+        <br>  
+
+        <table>  
+          <tr>  
+            <td><label>Do you play cricket?</label></td>  
+            <td>  
+              <input type="radio" id="playYes" name="play" value="Yes">  
+              <label for="playYes">Yes</label>  
+            </td>  
+          </tr>  
+          <tr>  
+            <td></td>  
+            <td>  
+              <input type="radio" id="playNo" name="play" value="No">  
+              <label for="playNo">No</label>  
+            </td>  
+          </tr>  
+        </table>  
+        <br>  
+
+        <label for="favCricketerStadium">Favorite Cricketer Stadium:</label>  
+        <input type="text" id="favCricketerStadium" name="favCricketerStadium"><br><br>  
+
+        <table>  
+          <tr>  
+            <td><label>Because of which player did we win the test(IND VS ENG 5th match)?</label></td>  
+            <td>  
+              <input type="radio" id="player" name="miyabhai" value="Siraj">  
+              <label for="player">Siraj(Miya Bhai)</label>  
+            </td>  
+          </tr>  
+          <tr>  
+            <td></td>  
+            <td>  
+              <input type="radio" id="player" name="skiddyy" value="prasidh">  
+              <label for="player">prasidh(skiddyy)</label>  
+            </td>  
+          </tr>  
+        </table>  
+        <br>  
+
+        <table>  
+          <tr>  
+            <td><label>Do you follow Women's Cricket?</label></td>  
+            <td>  
+              <input type="radio" id="womenYes" name="womensCricket" value="Yes">  
+              <label for="womenYes">Yes</label>  
+            </td>  
+          </tr>  
+          <tr>  
+            <td></td>  
+            <td>  
+              <input type="radio" id="womenNo" name="womensCricket" value="No">  
+              <label for="womenNo">No</label>  
+            </td>  
+          </tr>  
+        </table>  
+        <br>  
+
+        <label for="city">Your City:</label>  
+        <input type="text" id="city" name="city"><br><br>  
+
+        <input type="submit" value="Submit">  
+      </div>  
+    </form>  
+  </center>  
+</body>  
+</html>
